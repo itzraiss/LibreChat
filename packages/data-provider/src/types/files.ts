@@ -40,6 +40,7 @@ export type TFile = {
   file_id: string;
   temp_file_id?: string;
   bytes: number;
+  embedded: boolean;
   filename: string;
   filepath: string;
   object: 'file';
@@ -108,6 +109,7 @@ export type DeleteFilesResponse = {
 export type BatchFile = {
   file_id: string;
   filepath: string;
+  embedded: boolean;
   source: FileSources;
 };
 

@@ -58,6 +58,7 @@ export default {
   com_ui_close: 'Close',
   com_ui_model: 'Model',
   com_ui_select_model: 'Select a model',
+  com_ui_select_search_model: 'Search model by name',
   com_ui_use_prompt: 'Use prompt',
   com_ui_prev: 'Prev',
   com_ui_next: 'Next',
@@ -101,6 +102,8 @@ export default {
   com_ui_preview: 'Preview',
   com_ui_upload: 'Upload',
   com_ui_connect: 'Connect',
+  com_ui_upload_delay:
+    'Uploading "{0}" is taking more time than anticipated. Please wait while the file finishes indexing for retrieval.',
   com_ui_privacy_policy: 'Privacy policy',
   com_ui_terms_of_service: 'Terms of service',
   com_auth_error_login:
@@ -217,6 +220,8 @@ export default {
     'Number between -2.0 and 2.0. Positive values penalize new tokens based on whether they appear in the text so far, increasing the model\'s likelihood to talk about new topics.',
   com_endpoint_openai_resend:
     'Resend all previously attached images. Note: this can significantly increase token cost and you may experience errors with many image attachments.',
+  com_endpoint_openai_resend_files:
+    'Resend all previously attached files. Note: this will increase token cost and you may experience errors with many attachments.',
   com_endpoint_openai_detail:
     'The resolution for Vision requests. "Low" is cheaper and faster, "High" is more detailed and expensive, and "Auto" will automatically choose between the two based on the image resolution.',
   com_endpoint_openai_custom_name_placeholder: 'Set a custom name for ChatGPT',
@@ -234,6 +239,7 @@ export default {
   com_endpoint_frequency_penalty: 'Frequency Penalty',
   com_endpoint_presence_penalty: 'Presence Penalty',
   com_endpoint_plug_use_functions: 'Use Functions',
+  com_endpoint_plug_resend_files: 'Resend Files',
   com_endpoint_plug_resend_images: 'Resend Images',
   com_endpoint_plug_image_detail: 'Image Detail',
   com_endpoint_plug_skip_completion: 'Skip Completion',
@@ -322,6 +328,7 @@ export default {
   com_nav_welcome_assistant: 'Please Select an Assistant',
   com_nav_welcome_message: 'How can I help you today?',
   com_nav_auto_scroll: 'Auto-scroll to Newest on Open',
+  com_nav_enter_to_send: 'Do Send Message with Enter Key?',
   com_nav_hide_panel: 'Hide Right-most Side Panel',
   com_nav_modular_chat: 'Enable switching Endpoints mid-conversation',
   com_nav_latex_parsing: 'Parsing LaTeX in messages (may affect performance)',
