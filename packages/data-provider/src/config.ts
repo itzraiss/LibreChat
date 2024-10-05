@@ -694,7 +694,7 @@ export const initialModelsConfig: TModelsConfig = {
   [EModelEndpoint.agents]: openAIModels, // TODO: Add agent models (agentsModels)
   [EModelEndpoint.gptPlugins]: openAIModels,
   [EModelEndpoint.azureOpenAI]: openAIModels,
-  [EModelEndpoint.bingAI]: ['BingAI', 'Sydney'],
+  [EModelEndpoint.bingAI]: ['Copilot', 'Iara'],
   [EModelEndpoint.chatGPTBrowser]: ['text-davinci-002-render-sha'],
   [EModelEndpoint.google]: defaultModels[EModelEndpoint.google],
   [EModelEndpoint.anthropic]: defaultModels[EModelEndpoint.anthropic],
