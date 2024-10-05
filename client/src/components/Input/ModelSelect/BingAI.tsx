@@ -34,7 +34,7 @@ export default function BingAI({
     <>
       <Menu
         title="Mode"
-        value={jailbreak ? 'Sydney' : 'BingAI'}
+        value={jailbreak ? 'Iara' : 'Copilot'}
         data-testid="bing-select-dropdown"
         setValue={(value) => setOption('jailbreak')(value === 'Sydney')}
         availableValues={models}
